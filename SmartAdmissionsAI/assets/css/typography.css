@@ -1,0 +1,129 @@
+/* Import Variables */
+@import url('variables.css');
+
+/* Typography Base Styles */
+body {
+    font-family: var(--font-rounded);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anybody', sans-serif;
+    color: var(--secondary-color);
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color var(--transition-normal);
+}
+
+a:hover {
+    color: #2d4558;
+}
+
+/* Typography Classes */
+.page-title {
+    font-family: var(--font-anybody);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-lg);
+}
+
+.section-title {
+    font-family: var(--font-anybody);
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-xl);
+}
+
+.section-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: var(--font-anybody);
+}
+
+.body-text {
+    font-family: var(--font-rounded);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: var(--spacing-lg);
+}
+
+.card-title {
+    font-family: var(--font-anybody);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.card-text {
+    font-family: var(--font-rounded);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+.nav-link {
+    font-family: var(--font-exo);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--secondary-color);
+}
+
+.footer-text {
+    font-size: 14px;
+    color: var(--white);
+}
+
+.copyright-text {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Helper Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-white {
+    color: var(--white);
+}

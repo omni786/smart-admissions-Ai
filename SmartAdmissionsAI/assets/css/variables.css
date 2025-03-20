@@ -1,0 +1,47 @@
+:root {
+    /* Colors */
+    --primary-color: #3A5870;
+    --secondary-color: #3C3C3C;
+    --text-color: #777777;
+    --white: #FFFFFF;
+    --light-gray: #F8F8F8;
+    --gray: #DDDDDD;
+    --dark-gray: #333333;
+    --border-color: #E0E0E0;
+    
+    /* Gradients */
+    --section-bg: linear-gradient(297.14deg, rgba(242, 245, 247, 0.7) 10.69%, rgba(227, 238, 248, 0.5) 94.85%);
+    
+    /* Fonts */
+    --font-anybody: 'Anybody', sans-serif;
+    --font-exo: 'Exo 2', sans-serif;
+    --font-rounded: 'M PLUS Rounded 1c', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 30px;
+    --spacing-xl: 40px;
+    --spacing-xxl: 80px;
+    
+    /* Border radius */
+    --radius-sm: 5px;
+    --radius-md: 8px;
+    --radius-lg: 20px;
+    --radius-pill: 32px;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    
+    /* Container width */
+    --container-max-width: 1200px;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+}
